@@ -1,0 +1,15 @@
+.circle {
+    display: flex;
+    gap: 6.37rem;
+    justify-content: center;
+    background: var(--blue-900);
+    z-index: 1;
+    
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+
+.circle div strong {
+    font-size: 10.5rem;
+}

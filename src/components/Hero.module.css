@@ -1,0 +1,38 @@
+.hero {
+    color: var(--blue-900);
+    display: grid;
+    grid-template:
+    "logo logo desc"
+    "but but but" ;
+   
+}
+
+
+.hero div strong {
+    grid-area: logo;
+    font-size: 12.25rem;
+    font-weight: 600;
+    line-height: 10.3rem; 
+}
+
+.hero div p {
+    margin-top: 15rem;
+    grid-area: desc;
+    width:32vh;  
+}
+
+ button {
+    margin: 12rem auto;
+    grid-area: but;
+    height: 11.375rem;
+    width: 11.375rem;
+    border-radius: 100%;
+    border: none;
+    
+}
+
+button:hover {
+    background: var(--blue-900);
+    transition: background-color 1s;
+ 
+}

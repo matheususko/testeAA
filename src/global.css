@@ -1,0 +1,25 @@
+:root {
+    --white: #fff;;
+    --white-400: rgb(255,255,255, 0.4);
+    --gray-400: #B7BABE;
+    --blue-900: #191B1D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* box model */
+
+body {
+    background-color: var(--gray-400);
+    color: var(--white);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
